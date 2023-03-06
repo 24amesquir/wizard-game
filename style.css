@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main canvas {
+    border: 1px solid #ffffff;
+}
